@@ -12,3 +12,4 @@ print("========================================================")
 # Para quebra de linha podemos usar \n que e um caracter que o sistema nao enxerga
 print("Quebra de linha")
 print("Junio", "Resende", sep="\n", end="\n############# <=============")
+#################
