@@ -6,6 +6,10 @@ senha_permitida = "123456"
 if email_digitado == email_permitido and senha_digitada == senha_permitida:
     # Para Logar as duas condicoes precisam ser verdadeiras. email tem que ser junio@email.com e senha tem que ser 123456
     print("Login efetuado com sucesso!")
+elif not email_digitado:
+    print("email nao digitado!")
+elif not senha_digitada:
+    print("senha nao digitada!")
 else:
     # Caso uma das condicoes nao sejam verdadeiras.
     print("Acesso negado! Verifique as credenciais.")
